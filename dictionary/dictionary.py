@@ -17,11 +17,27 @@ def add_word(hun_word, eng_word):
 
 
 def translate_to_hun(eng_word):
-    pass
+    english_dictionary = []
+    hungarian_dictionary = []
+    for word_to_translate in dictionary:
+        for key, value in word_to_translate.items():
+            hungarian_dictionary.append(key)
+            english_dictionary.append(value)
+            if value == eng_word:
+                print(key)
+
 
 
 def translate_to_eng(hun_word):
-    pass
+    english_dictionary = []
+    hungarian_dictionary = []
+    for word_to_translate in dictionary:
+        for key, value in word_to_translate.items():
+            hungarian_dictionary.append(key)
+            english_dictionary.append(value)
+            if key == hun_word:
+                print(value)
 
 add_word('cirtom', 'lemon')
-print(dictionary)
+translate_to_hun('lemon')
+translate_to_eng('fa')
