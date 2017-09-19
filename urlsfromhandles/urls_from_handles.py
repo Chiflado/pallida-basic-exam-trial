@@ -17,5 +17,4 @@ def urls_from_handles(names):
     return list_of_url
         
 
-
 print(urls_from_handles(names))
