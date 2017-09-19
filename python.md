@@ -33,4 +33,4 @@ The application is accepted if:
 
 ###  What is the difference between id and class in CSS? [2p]
 #### Your answer:
-[add your answer here]
+Both are using to identify for elements. In one HTML file could be only one ID but we can use same classes multiple times. In CSS the classe name preceded with the character "." and the ID preceded with "#" and we use both to format the stated elements.
