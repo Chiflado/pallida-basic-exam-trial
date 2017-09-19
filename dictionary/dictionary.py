@@ -38,6 +38,7 @@ def translate_to_eng(hun_word):
             if key == hun_word:
                 print(value)
 
+
 add_word('cirtom', 'lemon')
 translate_to_hun('lemon')
 translate_to_eng('fa')
